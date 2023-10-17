@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 
 function EuTiAmu() {
   const elementMensagemRef = useRef(null);
@@ -27,11 +27,11 @@ function EuTiAmu() {
       <p style={{ fontSize: 80, lineHeight: 0 }}>Porque</p>
       <img
         style={{ textAlign: "center", width: "100%", maxWidth: 800 }}
-        src="https://i.ibb.co/zszqLcw/Group-1.png"
+        src="./img/euteamo.png"
         alt="eu te amo"
       />
       <p>
-        muito muito muito muito muito muito muito muito muito muito muito{" "}
+        muito muito muito muito muito muito muito muito muito muito muito
         <span ref={elementMensagemRef}></span> mesmu di verdadi 😍😘❤️😁🫶
       </p>
       <p style={{ marginTop: 30, marginBottom: 30 }}>
